@@ -104,6 +104,24 @@ nav ul li a:hover {
   height: 100%;
   object-fit: cover;
 }
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;  /* Center align icons horizontally */
+  gap: 20px;                /* Icons ke beech 20px gap */
+}
+
+.social-icons a {
+  color: white;             /* Icons ka color */
+  font-size: 28px;          /* Icon size */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #38bdf8;           /* Hover color jo nav ke hover color se match karta hai */
+  cursor: pointer;
+}
 
 @media (min-width: 768px) {
   .hero {
